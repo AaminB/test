@@ -83,7 +83,7 @@ Token = Information.Token
 UserBot = Information.UserBot
 TheMero = Token:match("(%d+)")
 os.execute('sudo rm -fr .CallBack-Bot/'..TheMero)
-LuaTele = luatele.set_config{api_id=2692371,api_hash='fe85fff033dfe0f328aeb02b4f784930',session_name=TheMero,token=Token}
+bot = luatele.set_config{api_id=2692371,api_hash='fe85fff033dfe0f328aeb02b4f784930',session_name=TheMero,token=Token}
 function var(value)  
 print(serpent.block(value, {comment=false}))   
 end 
